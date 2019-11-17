@@ -1,7 +1,7 @@
 body.a {background-color: rgb(247, 232, 214);
   color: rgb(168, 65, 57);
 align-content: center;
-margin: 1px; }
+margin: 5px; }
 
 body {background-color: rgb(255, 255, 255);
   color: rgb(168, 65, 57);
@@ -45,3 +45,4 @@ img{
     p.izq {text-align: right;}
     img.cont {float: left;margin: 10px;}
     p.q {text-align: left;}
+    main{text-align: left;}
