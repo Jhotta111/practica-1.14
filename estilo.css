@@ -1,40 +1,47 @@
 body.a {background-color: rgb(247, 232, 214);
-    color: rgb(168, 65, 57);
+  color: rgb(168, 65, 57);
 align-content: center;
 margin: 1px; }
 
 body {background-color: rgb(255, 255, 255);
-    color: rgb(168, 65, 57);
+  color: rgb(168, 65, 57);
 align-content: center;
-margin-left: 300px;
+margin-left: 10px;
 margin-top: 60px;
-margin-right: 300px;
-margin-bottom: 60px
+margin-right: 10px;
+margin-bottom: 60px;
+text-align: center;
 }
 h2 {text-align: center;}
 hr.a {
-    clear: both;
-  }
+  clear: both;
+}
 
 
-  img.izquierda {
-      float: left;
+img.izquierda {
+    float: left;
+}
+img.derecha {float: right;}
+img{
+  display:block;
+  margin:auto;
   }
-  img.derecha {float: right;}
-  img{
-    display:block;
-    margin:auto;
+  p.a {text-align: left;
+  clear: both;}
+  iframe img{
+      display:block;
+      margin:auto;
+      }
+
+      table { width: 100%; }
+    table,td,th{border:1px solid rgb(98, 102, 104);
+    ; text-align: left;
     }
-    p.a {text-align: left;
-    clear: both;}
-    iframe img{
-        display:block;
-        margin:auto;
-        }
 
-        p.centro {text-align:center}
-        p.izq {text-align:right}
-        p.der {text-align: left}
+    caption {color: black; font-weight: bolder; }
 
-        img.cont {float: left;
-        margin: 10px;}
+    h1{text-align: center;}
+    p.centro {text-align: center;}
+    p.izq {text-align: right;}
+    img.cont {float: left;margin: 10px;}
+    p.q {text-align: left;}
